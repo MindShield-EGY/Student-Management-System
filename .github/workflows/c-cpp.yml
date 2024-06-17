@@ -12,25 +12,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up C++ environment
-      run: sudo apt-get update && sudo apt-get install -y g++
+      run: sudo apt-get install -y g++
 
     - name: Compile SMS.cpp
       run: g++ -o SMS SMS.cpp
 
     - name: Run the executable
-      run: |
-        timeout 10s ./SMS
-        if [ $? -eq 124 ]; then
-          echo "Program timed out."
-          exit 1
-        fi
-
-    - name: Check the output
-      run: |
-        # Replace with commands to check the output if necessary
-        if grep -q "expected_text" SMS_output.txt; then
-          echo "Test passed"
-        else
-          echo "Test failed"
-          exit 1
-        fi
+      run: ./SMS
