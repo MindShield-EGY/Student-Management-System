@@ -4,18 +4,22 @@ on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # Set an overall job timeout of 10 minutes
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Set up C++ environment
-      run: sudo apt-get install -y g++
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++
 
     - name: Compile SMS.cpp
       run: g++ -o SMS SMS.cpp
 
     - name: Run the executable
-      run: ./SMS
+      run: |
+        echo "Starting the executable..."
+        timeout 60s ./SMS  # Run with a timeout of 60 seconds
