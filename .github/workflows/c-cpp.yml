@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: <executable>
-      run: ./<executable>
+    - name: configurate
+      run: ./SMS.cpp
     - name: make
       run: make
     - name: make check
