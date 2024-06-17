@@ -744,8 +744,8 @@ int main() {
         Administrator admin1(1,
                              "Program Director");// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
 // MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
-        /*admin1.readDataFromFile(
-                "C:\\Users\\awaad\\OneDrive\\Documents\\PROJECT\\PROJECT.txt");*/
+        admin1.readDataFromFile(
+                "//filepath");
         CC.start();
 // MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
         int choice, studentId;
@@ -933,9 +933,9 @@ int main() {
 
         } while (choice != 17);
 // MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
-        /*admin1.writeDataToFile(
-                "C:\\Users\\awaad\\OneDrive\\Documents\\PROJECT\\PROJECT.txt",
-                admin1);*/
+        admin1.writeDataToFile(
+                "//filepath",
+                admin1);
         // MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
     }
     return 0;// MindShield Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield-EGY Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
