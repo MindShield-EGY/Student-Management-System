@@ -748,7 +748,7 @@ int main() {
                 "//filepath");
         CC.start();
 // MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
-        int choice, studentId;
+        int choice = 17, studentId;
         double grade;
         string studentName, courseId, newCourseName;
         double newCreditHours;
