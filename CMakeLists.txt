@@ -4,6 +4,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 #Compiling Process info
-project(Student_Management_System)
-add_executable(Student_Management_System SMS.cpp )
-install(TARGETS Student_Management_System RUNTIME DESTINATION bin)
+project(CodeAlpha_to_do_list)
+add_executable(CodeAlpha_to_do_list CodeAlpha_to_do_list.cpp )
+install(TARGETS CodeAlpha_to_do_list RUNTIME DESTINATION bin)
