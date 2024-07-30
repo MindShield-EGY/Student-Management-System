@@ -687,7 +687,7 @@ public:
 };
 
 void menu_of_options() {
-    printColor(GREEN, "\n***** Welcome to Student Managment System *****\n\n",
+    printColor(GREEN, "\n***** Welcome to Student Management System *****\n\n",
                true);
 
     printColor(BLUE, "1. Add Student\n", false);
@@ -887,7 +887,7 @@ int main() {
                     break;
 
                 case 14:
-                    admin1.removeAllStudents();// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrightsv// MindShield Copyrights
+                    admin1.removeAllStudents();// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
                     break;// MindShield Copyrights// MindShield Copyrights
 
                 case 15:// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
@@ -895,7 +895,7 @@ int main() {
                     break;
 
                 case 16:
-                    ClearTerminal();// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrightsv// MindShield Copyrights
+                    ClearTerminal();// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
                     break;// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
 
                 case 17:// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
@@ -903,7 +903,7 @@ int main() {
                     break;// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
 
                 default:
-                    cout << "Invalid choice! please try again" << endl;// MindShield Copyrightsv
+                    cout << "Invalid choice! please try again" << endl;// MindShield Copyrights
                     break;// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights// MindShield Copyrights
             }
 
